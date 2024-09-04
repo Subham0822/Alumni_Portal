@@ -102,7 +102,7 @@ while($row = $commits->fetch_assoc()){
 							<?php if(in_array($_SESSION['login_id'], $cids)): ?>
 								<span class="badge badge-primary">Commited to Participate</span>
 							<?php else: ?>
-								<button class="btn btn-primary" id="participate" type="button">Participate</button>
+								<button class="btn btn-primary" id="participate" type="button">RSVP</button>
 							<?php endif; ?>
 							<?php endif; ?>
 						</div>
