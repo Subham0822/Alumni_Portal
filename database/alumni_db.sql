@@ -2,10 +2,10 @@
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Sep 04, 2024 at 09:02 AM
--- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+-- Host: localhost:3306
+-- Generation Time: Sep 04, 2024 at 11:41 AM
+-- Server version: 10.6.18-MariaDB-cll-lve
+-- PHP Version: 8.1.29
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -76,11 +76,10 @@ CREATE TABLE `careers` (
 
 INSERT INTO `careers` (`id`, `company`, `location`, `job_title`, `description`, `user_id`, `date_created`) VALUES
 (1, 'IT Company', 'Home-Based', 'Web Developer', '&lt;p style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin-top: 1.5em; margin-bottom: 1.5em; line-height: 1.5; animation: 1000ms linear 0s 1 normal none running fadeInLorem;&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis eu volutpat odio facilisis mauris sit amet massa vitae. In tellus integer feugiat scelerisque varius morbi enim. Orci eu lobortis elementum nibh tellus molestie nunc. Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Lacus sed viverra tellus in hac habitasse platea dictumst vestibulum. Eleifend donec pretium vulputate sapien nec. Enim praesent elementum facilisis leo vel fringilla est ullamcorper. Quam adipiscing vitae proin sagittis nisl rhoncus. Sed viverra ipsum nunc aliquet bibendum. Enim ut sem viverra aliquet eget sit amet tellus. Integer feugiat scelerisque varius morbi enim nunc faucibus.&lt;/p&gt;&lt;p style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin-top: 1.5em; margin-bottom: 1.5em; line-height: 1.5; animation: 1000ms linear 0s 1 normal none running fadeInLorem;&quot;&gt;Viverra justo nec ultrices dui. Leo vel orci porta non pulvinar neque laoreet. Id semper risus in hendrerit gravida rutrum quisque non tellus. Sit amet consectetur adipiscing elit ut. Id neque aliquam vestibulum morbi blandit cursus risus. Tristique senectus et netus et malesuada. Amet aliquam id diam maecenas ultricies mi eget mauris. Morbi tristique senectus et netus et malesuada. Diam phasellus vestibulum lorem sed risus. Tempor orci dapibus ultrices in. Mi sit amet mauris commodo quis imperdiet. Quisque sagittis purus sit amet volutpat. Vehicula ipsum a arcu cursus. Ornare quam viverra orci sagittis eu volutpat odio facilisis. Id volutpat lacus laoreet non curabitur. Cursus euismod quis viverra nibh cras pulvinar mattis nunc. Id aliquet lectus proin nibh nisl condimentum id venenatis. Eget nulla facilisi etiam dignissim diam quis enim lobortis. Lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit amet.&lt;/p&gt;', 3, '2020-10-15 14:14:27'),
-(3, 'pornhu8b', 'jhop er pashe', 'panu dorectopr', '&lt;b&gt;&lt;i&gt;sex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxxsex sex sexxx&lt;/i&gt;&lt;/b&gt;', 4, '2024-09-03 13:03:09'),
-(5, 'hitk', 'cme', 'sweeper', '&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;u&gt;&lt;span style=&quot;font-size:24px;&quot;&gt;bathroom er flush not working. need a freelancer je mukh diye thik kore debe.&amp;nbsp;&lt;/span&gt;&lt;/u&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;u&gt;&lt;span style=&quot;font-size:24px;&quot;&gt;olpo poisha debo&lt;/span&gt;&lt;/u&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;u&gt;&lt;span style=&quot;font-size:24px;&quot;&gt;no beedi. only ganja&lt;/span&gt;&lt;/u&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;', 4, '2024-09-03 08:40:53'),
 (7, 'Tech Innovations Inc.', 'Mumbai', 'Software Developer', '&lt;h5&gt;&lt;b&gt;Tech Innovations Inc. is seeking a skilled Software Developer to join our dynamic team. The ideal candidate will have experience in developing web and mobile applications, proficiency in JavaScript, and a solid understanding of front-end and back-end technologies. You will collaborate with cross-functional teams to design, develop, and implement innovative software solutions that meet our clients&amp;#x2019; needs. This is an excellent opportunity for a motivated developer to grow in a fast-paced, cutting-edge environment.&lt;/b&gt;&lt;/h5&gt;', 1, '2024-09-04 00:40:49'),
 (8, 'Green Energy Solutions', 'Delhi', 'Project Manager', '&lt;b&gt;Green Energy Solutions is looking for a Project Manager to oversee our renewable energy projects. The successful candidate will have experience in managing large-scale projects, particularly in the energy sector. You will be responsible for coordinating with various stakeholders, managing budgets, and ensuring projects are completed on time and within scope. This role requires strong leadership skills, attention to detail, and a passion for sustainability. If you&rsquo;re ready to make a difference in the green energy space, we want to hear from you.&lt;/b&gt;', 10, '2024-09-04 00:41:29'),
-(9, 'Global Finance Corp.', 'Pune', 'Financial Analyst', '&lt;b&gt;Global Finance Corp. is hiring a Financial Analyst to join our corporate finance team. The ideal candidate will have a background in financial analysis, forecasting, and reporting. You will analyze financial data, create financial models, and provide insights to support decision-making. This role requires strong analytical skills, proficiency in Excel and financial software, and the ability to work under tight deadlines. This position offers a great opportunity for growth and professional development within a leading finance company.&lt;/b&gt;', 11, '2024-09-04 00:42:17');
+(9, 'Global Finance Corp.', 'Pune', 'Financial Analyst', '&lt;b&gt;Global Finance Corp. is hiring a Financial Analyst to join our corporate finance team. The ideal candidate will have a background in financial analysis, forecasting, and reporting. You will analyze financial data, create financial models, and provide insights to support decision-making. This role requires strong analytical skills, proficiency in Excel and financial software, and the ability to work under tight deadlines. This position offers a great opportunity for growth and professional development within a leading finance company.&lt;/b&gt;', 11, '2024-09-04 00:42:17'),
+(10, 'Infosys', 'Noida', 'Web Developer', 'HTML CSS JS', 10, '2024-09-04 11:33:16');
 
 -- --------------------------------------------------------
 
@@ -356,7 +355,7 @@ ALTER TABLE `alumnus_bio`
 -- AUTO_INCREMENT for table `careers`
 --
 ALTER TABLE `careers`
-  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `courses`
