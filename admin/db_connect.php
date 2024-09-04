@@ -1,0 +1,1 @@
+<?php $conn = new mysqli('localhost', 'hack_heritage', 'hack_heritage', 'alumni_db') or die("Could not connect to mysql" . mysqli_error($con)); ?>
