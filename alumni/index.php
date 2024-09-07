@@ -74,7 +74,6 @@ a.jqte_tool_label.unselectable {
 </style>
 
 <body id="page-top">
-  <!-- Navigation-->
   <div class="toast" id="alert_toast" role="alert" aria-live="assertive" aria-atomic="true">
     <div class="toast-body text-white">
     </div>
@@ -88,12 +87,12 @@ a.jqte_tool_label.unselectable {
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=home">Home</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=alumni_list">Alumni</a></li>
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=gallery">Gallery</a></li>
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://rzp.io/l/jVMlEHAy"
               target="_blank">Donate</a></li>
           <?php if (isset($_SESSION['login_id'])): ?>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Success Stories</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=success_stories">Success Stories</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=alumni_list">Alumni</a></li>
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=careers">Jobs</a></li>
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=forum">Forums</a></li>
           <?php endif; ?>
@@ -205,7 +204,7 @@ a.jqte_tool_label.unselectable {
     </div>
     <br>
     <div class="container">
-      <div class="small text-center text-muted"><?php echo $_SESSION['system']['name'] ?> | Binary Bandits</div>
+      <div class="small text-center text-muted"><?php echo $_SESSION['system']['name'] ?> | Binary Bandits | <a href="/admin" target="_blank">Admin</a></a></div>
     </div>
   </footer>
 
